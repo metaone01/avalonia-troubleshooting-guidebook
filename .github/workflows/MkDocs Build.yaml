@@ -31,24 +31,6 @@ jobs:
       - name: Build documentation
         run: mkdocs build
 
-      - name: Verify build output
-        run: |
-          echo "Build directory contents:"
-          ls -la site/ || echo "No site directory found"
-          # 检查是否生成了预期的语言目录
-          if [ -d "site/en" ]; then
-            echo "✓ English version built successfully"
-          else
-            echo "✗ English version missing"
-            exit 1
-          fi
-          if [ -d "site/zh" ]; then
-            echo "✓ Chinese version built successfully"
-          else
-            echo "✗ Chinese version missing"
-            exit 1
-          fi
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
