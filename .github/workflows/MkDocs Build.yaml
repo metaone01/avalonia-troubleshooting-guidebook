@@ -2,7 +2,7 @@ name: Deploy MkDocs with i18n
 
 on:
   push:
-    branches: main
+    branches: [main]
   workflow_dispatch:
 
 jobs:
@@ -26,7 +26,7 @@ jobs:
           pip install "mkdocs"
           pip install "mkdocs-material"
           pip install "mkdocs-static-i18n[material]"
-          pip install "mkdocs-git-revision-date-plugin"
+          pip install "mkdocs-git-revision-date-localized-plugin"
 
       - name: Build documentation
         run: mkdocs build
