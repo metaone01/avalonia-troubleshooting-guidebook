@@ -34,6 +34,7 @@ body:
 
   - type: checkboxes
     id: pr-willingness
+    label: 帮助修正
     attributes:
       options:
         - label: 我愿意创建PR更新中文版。

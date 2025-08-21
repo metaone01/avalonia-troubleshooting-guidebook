@@ -26,6 +26,7 @@ body:
 
   - type: checkboxes
     id: pr-willingness
+    label: Help to Correct
     attributes:
       options:
         - label: I'm willing to create a pull request to correct its Chinese version.
