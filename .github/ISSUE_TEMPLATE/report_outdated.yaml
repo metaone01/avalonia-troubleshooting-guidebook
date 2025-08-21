@@ -34,8 +34,8 @@ body:
 
   - type: checkboxes
     id: pr-willingness
-    label: Help to Correct
     attributes:
+      label: Help to Correct
       options:
         - label: I'm willing to create a pull request to update its Chinese version.
         - label: I'm willing to create a pull request to update its English version.

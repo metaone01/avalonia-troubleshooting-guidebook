@@ -26,8 +26,8 @@ body:
 
   - type: checkboxes
     id: pr-willingness
-    label: 帮助修正
     attributes:
+      label: 帮助修正
       options:
         - label: "我愿意创建PR修正中文版。"
         - label: "我愿意创建PR修正英文版。"
