@@ -1,0 +1,57 @@
+name: Deploy MkDocs with i18n
+
+on:
+  push:
+    branches: main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 获取所有历史记录，以便插件能正确计算修改日期等
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          pip install "mkdocs"
+          pip install "mkdocs-material"
+          pip install "mkdocs-static-i18n[material]"
+          pip install "mkdocs-git-revision-date-plugin"
+
+      - name: Build documentation
+        run: mkdocs build
+
+      - name: Verify build output
+        run: |
+          echo "Build directory contents:"
+          ls -la site/ || echo "No site directory found"
+          # 检查是否生成了预期的语言目录
+          if [ -d "site/en" ]; then
+            echo "✓ English version built successfully"
+          else
+            echo "✗ English version missing"
+            exit 1
+          fi
+          if [ -d "site/zh" ]; then
+            echo "✓ Chinese version built successfully"
+          else
+            echo "✗ Chinese version missing"
+            exit 1
+          fi
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          keep_files: false

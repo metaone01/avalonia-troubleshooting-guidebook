@@ -1,0 +1,46 @@
+name: 报告一篇过时的指南
+description: 报告某指南的部分内容已过时
+labels: ["document", "outdated-report"]
+body:
+  - type: input
+    id: page-url
+    attributes:
+      label: 指南链接
+      description: 过时指南的链接。
+    validations:
+      required: true
+
+  - type: textarea
+    id: outdated-content
+    attributes:
+      label: 过时的内容
+      description: 过时内容或其行号区间。
+    validations:
+      required: true
+
+  - type: input
+    id: latest-source
+    attributes:
+      label: 最新源的链接
+      description: 这部分内容的最新源是什么？
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: 新内容
+      description: 最新消息是什么？我们要如何更新该指南？
+
+  - type: checkboxes
+    id: pr-willingness
+    attributes:
+      options:
+        - label: 我愿意创建PR更新中文版。
+        - label: 我愿意创建PR更新英文版。
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: 附加信息
+      description: 添加其它与此故障相关的信息。

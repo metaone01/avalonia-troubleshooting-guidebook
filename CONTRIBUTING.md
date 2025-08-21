@@ -1,87 +1,93 @@
-﻿# 为Avalonia Troubleshooting Guidebook做贡献
+﻿# Contributing to Avalonia Troubleshooting Guidebook
 
-## 行为准则
+## Code of Conduct
 
-本项目采用了Contributor Covenant Code of Conduct定义的行为准则，以阐明我们社区中的预期行为。
-有关详细信息，请参阅[Contributor Covenant Code of Conduct](https://www.contributor-covenant.org)。
-请阅读并遵守我们的行为准则。
-我们希望所有贡献者在所有互动中都能尊重和体谅他人。
+This project has adopted the code of conduct defined by the Contributor Covenant to clarify expected behavior in our community. 
+For more information see the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org).
+Please read and follow our Code of Conduct. 
+We expect all contributors to be respectful and considerate of others in all interactions.
 
-## 语言
+## Language
 
-目前核心维护团队只懂中文和英文。我们欢迎您使用任何语言提交Issue、Discussion或PR，但我们无法保证您的想法能够得到准确理解
+Currently the core maintainer team can only understand Chinese and English. 
+You are welcomed to submit issues, discussions or pull requests with any language, 
+but we can't not guarantee an accurate understanding of your thought with the help of machine translation.
 
-## 我该如何贡献？
+## How Can I Contribute?
 
-在打开任何问题或讨论之前，请搜索现有问题以确保尚未报告错误。
-它们通常出现在
-[Github Issue](https://github.com/metaone01/avalonia-troubleshooting-guidebook/issues)
-或
-[Github Discussion](https://github.com/metaone01/avalonia-troubleshooting-guidebook/discussions)中。
+Before opening any issues or discussions,please search existing issues to ensure the bug hasn't already been reported.
+They are usually in [Github Issues](https://github.com/metaone01/avalonia-troubleshooting-guidebook/issues)
+or [GitHub Discussions](https://github.com/metaone01/avalonia-troubleshooting-guidebook/discussions)
 
-**已经记录的错误在Closed Issues中。有些可能没有更新到主分支。搜索的时候不要遗漏这一部分。**
+**Bugs have been documented are in CLOSED issues. 
+Some may not have updated to the main branch. 
+Don't miss this part when searching.**
 
-**请注意，为了减少维护压力，我们将只维护中文和英文文档。
-如果PR commit中含有其他语言，则这个PR将不会被合并。
-如果您想参与翻译，请在您自己的fork里进行，然后在这里打开一个新的Issue，我们将把您的repo链接添加到此Guidebook中。**
+**Please note that in order to reduce maintenance pressure, we will only maintain Chinese and English documentation. 
+If the PR's any commit contains other languages, it will not be merged. 
+If you want to participate in the translation, please do it in your fork
+then open a new issue here, we will add your repository link to this guidebook.**
 
-### 新指南和问题
+### New Guides and Questions
 
-如果您遇到尚未记录的错误，请:
+If you experienced a bug that has not yet been documented,please:
 
-## 如果Bug没有解决:
+#### If the bug has not being solved:
 
-创建包含以下内容的Discussion:
+Create a discussion and include:
 
-* 问题的清晰描述。
-* 重现错误的步骤。
-* 屏幕截图或日志（如适用）。
-* 您的环境详细信息（操作系统、浏览器版本等）。
+* A clear description of the problem.
+* Steps to reproduce the bug.
+* Screenshots or logs, if applicable.
+* Your environment details (OS, browser version, etc.).
 
-**解决后，请@维护人员将其更改为Issue**。
+**When solved, please @ maintainers to change it into an issue**.
 
-## 如果Bug已经解决:
+#### If the bug has been solved:
 
-创建问题并包括:
-* 问题的清晰描述。
-* 重现错误的步骤。
-* 屏幕截图或日志（如适用）。
-* 您的环境详细信息（操作系统、浏览器版本等）。
-* 您的详细调试过程。
+Create an issue and include:
 
-### 报告文档错误和过时
+* A clear description of the problem.
+* Steps to reproduce the bug.
+* Screenshots or logs, if applicable.
+* Your environment details (OS, browser version, etc.).
+* Your detailed debugging process.
 
-如果您在项目中发现错误或过时的指南，请使用以下模板提交问题:
+### Reporting Document Wrongs and Outdates
+
+If you find wrong or outdated guides in the project, please submit an issue with following template:
+
 ```markdown
-[**<文件名>** line <行数>](<链接>)  
-
-<原因说明>
-
-<!-- 如果过时，请添加以下行 -->
-[<最新源的名称>]<源的最新版本的链接>
+    [**<FILENAME>** line <LINE>](<URL>) 
+    
+    <REASON>
+    
+    <!-- Add this line if outdated -->
+    [<SOURCE_NAME>]<SOURCE_LATEST_UPDATE_URL>
 ```
-样例：
+
+example:
+
 ```markdown
-[**CONTRIBUTING.md** line 58](https://github.com/metaone01/avalonia-troubleshooting-guidebook/blob/english/CONTRIBUTING.md#L58)
-
-样例原因。
-
-[Avalonia最新发行版](https://github.com/AvaloniaUI/Avalonia/releases/latest)
+    [**CONTRIBUTING.md** line 58](https://github.com/metaone01/avalonia-troubleshooting-guidebook/blob/main/CONTRIBUTING.md#L72)
+    This is template reason.
+    [Latest Avalonia Release](https://github.com/AvaloniaUI/Avalonia/releases/latest)
 ```
-预览如下：
 
-[**CONTRIBUTING.md** line 58](https://github.com/metaone01/avalonia-troubleshooting-guidebook/blob/english/CONTRIBUTING.md#L58)
+Its Preview will like this:
 
-样例原因。
+[**CONTRIBUTING.md** line 58](https://github.com/metaone01/avalonia-troubleshooting-guidebook/blob/main/CONTRIBUTING.md#L72)
 
-[Avalonia最新发行版](https://github.com/AvaloniaUI/Avalonia/releases/latest)
+This is template reason.
 
-## 创建Pull Request
+[Latest Avalonia Release](https://github.com/AvaloniaUI/Avalonia/releases/latest)
 
-如果要创建新的PR，您需要:
+#### Open a Pull Request
 
-1. fork本仓库并在本地clone您的fork repo。
-2. 为您的更改创建一个新分支。
-3. 按照样式指南进行更改。
-4. 清晰简练地描述您做出的更改。
-5. 将您的分支推送到GitHub，并打开一个带有详细说明的PR。
+To contribute with a Pull Request, you need to:
+
+1. Fork the repository and clone your fork locally.
+2. Create a new branch for your changes.
+3. Make your changes, following the Style Guide.
+4. Commit your changes with a descriptive commit message.
+5. Push your branch to GitHub and open a Pull Request with detailed explanation.

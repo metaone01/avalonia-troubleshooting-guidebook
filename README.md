@@ -1,17 +1,28 @@
-﻿# Avalonia 故障排除指南
+﻿# Avalonia Troubleshooting Guidebook
 
-由于Avalonia的文档不全面，多系统开发遇到的坑也较多，故创建此指南以记录各种错误及其解决方案，回答新手疑问。
+[中文](./README_CN.md)
 
-如果您觉得本指南帮到了或将会帮助到您，还请Star本项目。
+Since Avalonia's documentation is not comprehensive and there are many difficulties in multi-os development, this guide was created to document various errors and their solutions, and answer questions for beginners.
 
-如果有疑问或Bug请求帮助：
+If you find this guide helpful or think it will help you, please consider starring [this project](https://github.com/metaone01/avalonia-troubleshooting-guidebook).
 
-请先在Issue和Discussion中搜索
+> [!NOTE]
+> The scope of this guide covers all errors encountered when writing Avalonia programs, regardless of whether the errors themselves are related to Avalonia.
 
-- 如果是提问，请开Discussion。
-- 如果有未解决的故障，请开Discussion；
-- 故障已解决的，请开Issue。
+If you encounter any difficulties while writing Avalonia programs, feel free to ask questions.
 
-**Discussion问题解决后请@维护者转为Issue。**
+If you have any relevant troubleshooting experience and are willing to share your insights, your contributions are welcome!
 
-详情请参阅[CONTRIBUTING.md](https://github.com/metaone01/avalonia-troubleshooting-guidebook/blob/chinese/CONTRIBUTING.md)
+If you have questions or bugs and need help:
+
+> [!TIPS]
+> Before opening any issues or discussions,please search existing issues to ensure the bug hasn't already been reported.
+
+- If you are asking a question, please open a discussion.
+- If there are unresolved problems, please open a discussion;
+- If the problems have been resolved, please open an issue.
+
+> [!IMPORTANT]
+> **After the problem is resolved, please @ maintainers to change the discussion into an issue.**
+
+More details here [CONTRIBUTING.md](./CONTRIBUTING.md)

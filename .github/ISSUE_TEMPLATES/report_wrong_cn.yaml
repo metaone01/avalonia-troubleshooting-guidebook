@@ -1,0 +1,38 @@
+name: 报告指南错误
+description: 指南的部分内容有误。
+labels: ["document", "error-report"]
+body:
+  - type: input
+    id: page-url
+    attributes:
+      label: 指南链接
+      description: 出错的指南的链接
+    validations:
+      required: true
+
+  - type: textarea
+    id: wrong
+    attributes:
+      label: 错误内容
+      description: 错误内容或其行号区间
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: 修正内容
+      description: 我们该如何修正此部分内容？
+
+  - type: checkboxes
+    id: pr-willingness
+    attributes:
+      options:
+        - label: "我愿意创建PR修正中文版。"
+        - label: "我愿意创建PR修正英文版。"
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: 附加信息
+      description: 添加其它与此故障相关的信息。

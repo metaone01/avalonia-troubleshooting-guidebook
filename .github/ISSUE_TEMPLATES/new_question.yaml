@@ -1,0 +1,32 @@
+name: New Question
+description: A question you have once wondered about.
+labels: ["new page", "question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Describe the question
+      description: Also tell us, what did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: answer
+    attributes:
+      label: Answer
+      description: Your answers. We also hope that you can provide the failed tests so that we can better understand your thoughts.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment Information
+      description: If this question is platform-specific, please provide your OS's version, architecture, and Avalonia's version.
+      placeholder: e.g. Windows 11 24H2 , amd64, Avalonia 11.3.4
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: Additional context
+      description: Add any other context about the question here.

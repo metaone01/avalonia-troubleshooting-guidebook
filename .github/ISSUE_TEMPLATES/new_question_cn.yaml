@@ -1,0 +1,32 @@
+name: 新问题
+description: 你曾经疑惑过的问题
+labels: ["new page", "question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: 描述问题
+      description: 同时也请告知，您期望它做出什么行为？
+    validations:
+      required: true
+
+  - type: textarea
+    id: answer
+    attributes:
+      label: 答案
+      description: 您的答案。我们也希望您能提供失败的测试，以便于我们更完整地理解您的想法。
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境信息
+      description: 如果这个问题是特定平台的，请提供您的系统版本，系统架构和Avalonia版本。
+      placeholder: 例如： Windows 11 24H2 , amd64, Avalonia 11.3.4
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: 附加信息
+      description: 添加其它与此问题相关的信息。

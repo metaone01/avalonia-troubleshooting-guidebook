@@ -1,0 +1,67 @@
+name: 新指南
+description: 分享一个新的故障排除经验
+labels: ["new page", "solution"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 描述故障
+      description: 同时请描述这段代码的预期行为。
+    validations:
+      required: true
+
+  - type: textarea
+    id: how-to-reproduce
+    attributes:
+      label: 复现故障
+      description: 这个错误如何复现？
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: 解决方案
+      description: 您的解决方案。我们也希望您提供失败的测试，以便更好地了解您的排障思路。
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境信息
+      description: 您的系统版本，系统架构和Avalonia版本。
+      placeholder: 例如： Windows 11 24H2 , amd64, Avalonia 11.3.4
+
+  - type: dropdown
+    id: all-platform
+    attributes:
+      label: 这个故障在所有平台都存在吗？
+      options:
+        - label: 是
+        - label: 否
+        - label: 不确定
+      required: true
+
+  - type: dropdown
+    id: relevance
+    attributes:
+      label: 此故障直接与Avalonia相关吗？
+      options:
+        - label: 是
+          description: 这是个Avalonia的故障。
+        - label: 否
+          description: 这是Avalonia项目中其它代码的故障。
+        - label: 受影响
+          description: 其它代码干扰了Avalonia的运行。
+        - label: 干扰
+          description: Avalonia干扰了其它代码的运行。
+        - label: 非预期
+          description: 行为非预期，但不确定Avalonia和其它代码的影响关系。
+        - label: 冲突
+          description: Avalonia受影响且干扰了其它代码运行。
+      required: true
+
+  - type: textarea
+    id: additional-info
+    attributes:
+      label: 附加信息
+      description: 添加其它与此故障相关的信息。
