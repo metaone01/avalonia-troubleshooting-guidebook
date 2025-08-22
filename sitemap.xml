@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-        <loc>https://github.io/metaone01/avalonia-troubleshooting-guidebook/</loc>
-        <lastmod>2025-08-21</lastmod>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/</loc>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://github.io/metaone01/avalonia-troubleshooting-guidebook/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://github.io/metaone01/avalonia-troubleshooting-guidebook/en/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/"/>
     </url>
     <url>
-        <loc>https://github.io/metaone01/avalonia-troubleshooting-guidebook/en/</loc>
-        <lastmod>2025-08-21</lastmod>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia%20Related/</loc>
+        <lastmod>2025-08-22</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://github.io/metaone01/avalonia-troubleshooting-guidebook/en/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://github.io/metaone01/avalonia-troubleshooting-guidebook/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia%20Related/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia%20Related/"/>
+    </url>
+    <url>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/</loc>
+        <lastmod>2025-08-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/"/>
+    </url>
+    <url>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia%20Related/</loc>
+        <lastmod>2025-08-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia%20Related/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia%20Related/"/>
+    </url>
+    <url>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia%20Related/Styles/</loc>
+        <lastmod>2025-08-22</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia%20Related/Styles/"/>
     </url>
 </urlset>
