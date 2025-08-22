@@ -1,13 +1,17 @@
 site_name: Avalonia TroubleShooting Guidebook
-site_url: https://github.io/metaone01/avalonia-troubleshooting-guidebook
+site_url: https://metaone01.github.io/avalonia-troubleshooting-guidebook
 repo_url: https://github.com/metaone01/avalonia-troubleshooting-guidebook
 
 docs_dir: docs/
+
+markdown_extensions:
+  - admonition
 
 theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.top
     - search.suggest
     - search.highlight
     - toc.integrate
@@ -15,7 +19,7 @@ theme:
     - content.code.copy
     - content.tabs.link
     - header.autohide
-    - navigation.sections
+    - navigation.indexes
     - navigation.expand
     - navigation.tracking
     - footer.social
@@ -39,6 +43,9 @@ plugins:
           name: 简体中文
           site_name: Avalonia 故障排除指南
           build: true
+          nav_translations: 
+            Avalonia Related: Avalonia相关
+            Styles: 样式
   
   - git-revision-date-localized:
       fallback_to_build_date: true
