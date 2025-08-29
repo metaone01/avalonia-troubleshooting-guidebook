@@ -32,3 +32,7 @@ If the template is written like this:
 When the user sets `Background = "Red"` directly, hovering the mouse will not change the color, which loses responsiveness. To avoid this, the development team wrote higher-priority selectors in the styles, so you need to write such a long selector to override them.
 
 💖 Provided by [kongdetuo](https://github.com/kongdetuo)
+
+🔗 Original Document [Avalonia 常见问题](https://kongdetuo.github.io/posts/avalonia-faq/)
+
+（Obtained permission from original author，Modified）
