@@ -6,6 +6,20 @@ docs_dir: docs/
 
 markdown_extensions:
   - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+extra_javascript:
+  - assets/tags.js
+
+extra_css:
+  - assets/extra.css
+  - assets/tags.css
 
 theme:
   name: material
@@ -14,7 +28,6 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
-    - toc.integrate
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
@@ -30,6 +43,25 @@ theme:
 
 plugins:
   - search
+  - tags:
+      tags_allowed:
+        - Avalonia
+        - Xaml
+        - Style
+        - Event
+        - Binding
+        - Code Behind
+        - ViewModel
+        # Multi-OS
+        - Windows
+        - Linux
+        - MacOS
+        - Android
+        - Web
+        # Special
+        - Outdated
+        - WIP
+        - Experimental
   - i18n:
       docs_structure: folder
       languages:
@@ -43,10 +75,13 @@ plugins:
           name: 简体中文
           site_name: Avalonia 故障排除指南
           build: true
-          nav_translations: 
-            Avalonia Related: Avalonia相关
-            Styles: 样式
-  
+          nav_translations:
+            Avalonia: Avalonia相关
+            Style: 样式
+            Binding: 绑定
+            Event: 事件
+            Multi OS: 跨平台
+
   - git-revision-date-localized:
       fallback_to_build_date: true
       type: timeago
