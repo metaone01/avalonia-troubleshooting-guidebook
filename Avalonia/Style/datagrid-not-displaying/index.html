@@ -8,23 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/">
+        <link rel="canonical" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Style/datagrid-not-displaying/">
       
       
+        <link rel="prev" href="../-pointerover-setting-color-not-working/">
       
-        <link rel="next" href="Avalonia/can-avalonia-embed-html/">
+      
+        <link rel="next" href="../is-there-a-trigger-in-avalonia/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
     
     
       
-        <title>Avalonia 故障排除指南 - Avalonia 故障排除指南</title>
+        <title>为什么 DataGrid 没有显示 - Avalonia 故障排除指南</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
       
       
 
@@ -43,17 +45,17 @@
       
     
     
-      <link rel="stylesheet" href="css/timeago.css">
+      <link rel="stylesheet" href="../../../css/timeago.css">
     
-      <link rel="stylesheet" href="css/timeago.css">
+      <link rel="stylesheet" href="../../../css/timeago.css">
     
-      <link rel="stylesheet" href="css/timeago.css">
+      <link rel="stylesheet" href="../../../css/timeago.css">
     
-      <link rel="stylesheet" href="assets/extra.css">
+      <link rel="stylesheet" href="../../../assets/extra.css">
     
-      <link rel="stylesheet" href="assets/tags.css">
+      <link rel="stylesheet" href="../../../assets/tags.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -72,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#avalonia" class="md-skip">
+        <a href="#datagrid" class="md-skip">
           跳转至
         </a>
       
@@ -86,7 +88,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="." title="Avalonia 故障排除指南" class="md-header__button md-logo" aria-label="Avalonia 故障排除指南" data-md-component="logo">
+    <a href="../../.." title="Avalonia 故障排除指南" class="md-header__button md-logo" aria-label="Avalonia 故障排除指南" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -106,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Avalonia 故障排除指南
+              为什么 DataGrid 没有显示
             
           </span>
         </div>
@@ -127,13 +129,13 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="/avalonia-troubleshooting-guidebook/en/" hreflang="en" class="md-select__link">
+            <a href="../../../en/Avalonia/Style/datagrid-not-displaying/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="/avalonia-troubleshooting-guidebook/" hreflang="zh" class="md-select__link">
+            <a href="./" hreflang="zh" class="md-select__link">
               简体中文
             </a>
           </li>
@@ -217,11 +219,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
         
   
   
@@ -238,11 +238,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="Avalonia/can-avalonia-embed-html/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../can-avalonia-embed-html/" class="md-tabs__link">
           
   
   
@@ -278,7 +280,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Avalonia 故障排除指南" class="md-nav__button md-logo" aria-label="Avalonia 故障排除指南" data-md-component="logo">
+    <a href="../../.." title="Avalonia 故障排除指南" class="md-nav__button md-logo" aria-label="Avalonia 故障排除指南" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -305,19 +307,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -328,7 +321,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -337,8 +329,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -354,19 +348,20 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -379,7 +374,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Avalonia相关
@@ -393,7 +388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Avalonia/can-avalonia-embed-html/" class="md-nav__link">
+      <a href="../../can-avalonia-embed-html/" class="md-nav__link">
         
   
   
@@ -510,7 +505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Avalonia/Binding/Event/why-textbox-keydown-event-not-triggering/" class="md-nav__link">
+      <a href="../../Binding/Event/why-textbox-keydown-event-not-triggering/" class="md-nav__link">
         
   
   
@@ -596,7 +591,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Avalonia/Multi%20OS/avalonia-app-linux-double-click-not-open/" class="md-nav__link">
+      <a href="../../Multi%20OS/avalonia-app-linux-double-click-not-open/" class="md-nav__link">
         
   
   
@@ -624,8 +619,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -642,13 +639,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" checked>
         
           
           <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
@@ -664,7 +659,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_4">
             <span class="md-nav__icon md-icon"></span>
             样式
@@ -678,7 +673,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Avalonia/Style/-pointerover-setting-color-not-working/" class="md-nav__link">
+      <a href="../-pointerover-setting-color-not-working/" class="md-nav__link">
         
   
   
@@ -698,10 +693,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="Avalonia/Style/datagrid-not-displaying/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -712,6 +716,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -724,7 +729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Avalonia/Style/is-there-a-trigger-in-avalonia/" class="md-nav__link">
+      <a href="../is-there-a-trigger-in-avalonia/" class="md-nav__link">
         
   
   
@@ -787,18 +792,40 @@
                 
                   
 
+  <nav class="md-tags" >
+    
+      
+      
+      
+        <span class="md-tag">Avalonia</span>
+      
+    
+      
+      
+      
+        <span class="md-tag">Style</span>
+      
+    
+      
+      
+      
+        <span class="md-tag">Xaml</span>
+      
+    
+  </nav>
+
 
   
   
 
 
-<h1 id="avalonia">Avalonia 故障排除指南</h1>
-<p>由于Avalonia的文档不全面，多系统开发遇到的坑也较多，故创建此指南以记录各种错误及其解决方案，回答新手疑问。</p>
-<p>如果您觉得本指南帮到了或将会帮助到您，还请Star<a href="https://github.com/metaone01/avalonia-troubleshooting-guidebook">本项目</a>。</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>本指南的覆盖范围包括所有编写Avalonia程序会遇到的错误，无论错误本身与Avalonia是否相关。</p>
-</div>
+<h1 id="datagrid">为什么 <code>DataGrid</code> 没有显示</h1>
+<p>请检查是否在<strong>App.axaml</strong>中引入了样式</p>
+<div class="language-diff highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>&lt;Application.Styles&gt;
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="gi">+    &lt;StyleInclude Source=&quot;avares://Avalonia.Controls.DataGrid/Themes/Fluent.xaml&quot;/&gt;</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>&lt;/Application.Styles&gt;
+</span></code></pre></div>
+<p>💖 提供者<a href="https://github.com/kongdetuo">kongdetuo</a></p>
 
 
 
@@ -876,24 +903,24 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate", "content.code.copy", "content.tabs.link", "header.autohide", "navigation.indexes", "navigation.expand", "navigation.tracking", "footer.social", "footer.icons", "palette.toggle", "palette.icon", "announcement.bar"], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate", "content.code.copy", "content.tabs.link", "header.autohide", "navigation.indexes", "navigation.expand", "navigation.tracking", "footer.social", "footer.icons", "palette.toggle", "palette.icon", "announcement.bar"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.92b07e13.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
       
-        <script src="js/timeago.min.js"></script>
+        <script src="../../../js/timeago.min.js"></script>
       
-        <script src="js/timeago_mkdocs_material.js"></script>
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="js/timeago.min.js"></script>
+        <script src="../../../js/timeago.min.js"></script>
       
-        <script src="js/timeago_mkdocs_material.js"></script>
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="js/timeago.min.js"></script>
+        <script src="../../../js/timeago.min.js"></script>
       
-        <script src="js/timeago_mkdocs_material.js"></script>
+        <script src="../../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="assets/tags.js"></script>
+        <script src="../../../assets/tags.js"></script>
       
     
   </body>

@@ -2,36 +2,100 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/</loc>
-        <lastmod>2025-08-22</lastmod>
+        <lastmod>2025-08-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/"/>
         <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/"/>
     </url>
     <url>
-        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia%20Related/</loc>
-        <lastmod>2025-08-22</lastmod>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/can-avalonia-embed-html/</loc>
+        <lastmod>2025-08-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia%20Related/"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia%20Related/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/can-avalonia-embed-html/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/can-avalonia-embed-html/"/>
+    </url>
+    <url>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Binding/Event/why-textbox-keydown-event-not-triggering/</loc>
+        <lastmod>2025-08-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Binding/Event/why-textbox-keydown-event-not-triggering/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/Binding/Event/why-textbox-keydown-event-not-triggering/"/>
+    </url>
+    <url>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Multi%20OS/avalonia-app-linux-double-click-not-open/</loc>
+        <lastmod>2025-08-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Multi%20OS/avalonia-app-linux-double-click-not-open/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/Multi%20OS/avalonia-app-linux-double-click-not-open/"/>
+    </url>
+    <url>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Style/-pointerover-setting-color-not-working/</loc>
+        <lastmod>2025-08-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Style/-pointerover-setting-color-not-working/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/Style/-pointerover-setting-color-not-working/"/>
+    </url>
+    <url>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Style/datagrid-not-displaying/</loc>
+        <lastmod>2025-08-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Style/datagrid-not-displaying/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/Style/datagrid-not-displaying/"/>
+    </url>
+    <url>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Style/is-there-a-trigger-in-avalonia/</loc>
+        <lastmod>2025-08-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Style/is-there-a-trigger-in-avalonia/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/Style/is-there-a-trigger-in-avalonia/"/>
     </url>
     <url>
         <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/</loc>
-        <lastmod>2025-08-22</lastmod>
+        <lastmod>2025-08-29</lastmod>
         <changefreq>daily</changefreq>
         <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/"/>
         <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/"/>
     </url>
     <url>
-        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia%20Related/</loc>
-        <lastmod>2025-08-22</lastmod>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/can-avalonia-embed-html/</loc>
+        <lastmod>2025-08-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia%20Related/"/>
-        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia%20Related/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/can-avalonia-embed-html/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/can-avalonia-embed-html/"/>
     </url>
     <url>
-        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia%20Related/Styles/</loc>
-        <lastmod>2025-08-22</lastmod>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/Binding/Event/why-textbox-keydown-event-not-triggering/</loc>
+        <lastmod>2025-08-29</lastmod>
         <changefreq>daily</changefreq>
-        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia%20Related/Styles/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/Binding/Event/why-textbox-keydown-event-not-triggering/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Binding/Event/why-textbox-keydown-event-not-triggering/"/>
+    </url>
+    <url>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/Multi%20OS/avalonia-app-linux-double-click-not-open/</loc>
+        <lastmod>2025-08-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/Multi%20OS/avalonia-app-linux-double-click-not-open/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Multi%20OS/avalonia-app-linux-double-click-not-open/"/>
+    </url>
+    <url>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/Style/-pointerover-setting-color-not-working/</loc>
+        <lastmod>2025-08-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/Style/-pointerover-setting-color-not-working/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Style/-pointerover-setting-color-not-working/"/>
+    </url>
+    <url>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/Style/datagrid-not-displaying/</loc>
+        <lastmod>2025-08-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/Style/datagrid-not-displaying/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Style/datagrid-not-displaying/"/>
+    </url>
+    <url>
+        <loc>https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/Style/is-there-a-trigger-in-avalonia/</loc>
+        <lastmod>2025-08-29</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/en/Avalonia/Style/is-there-a-trigger-in-avalonia/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Style/is-there-a-trigger-in-avalonia/"/>
     </url>
 </urlset>
