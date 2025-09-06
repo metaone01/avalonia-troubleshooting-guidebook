@@ -58,6 +58,8 @@ plugins:
         - Binding
         - Code Behind
         - ViewModel
+        - Data
+        - Data Validation
         # Multi-OS
         - Windows
         - Linux
