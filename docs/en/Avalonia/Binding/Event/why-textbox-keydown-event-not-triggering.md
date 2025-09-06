@@ -1,6 +1,7 @@
 ---
 tags:
   - Avalonia
+  - Binding
   - Event
 ---
 # Why is the KeyDown event of TextBox not triggered?
