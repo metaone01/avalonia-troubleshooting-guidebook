@@ -23,6 +23,21 @@
     color: #fff;
 }
 
+.md-tag#binding {
+    background-color: chocolate;
+    color:#fff;
+}
+
+.md-tag#data {
+    background-color: orange;
+    color:#fff;
+}
+
+.md-tag#data-validation {
+    background-color:tomato;
+    color:#fff;
+}
+
 .md-tag#linux {
     background: #16a085;
     color: #fff;

@@ -8,25 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Multi%20OS/avalonia-app-linux-double-click-not-open/">
+        <link rel="canonical" href="https://metaone01.github.io/avalonia-troubleshooting-guidebook/Avalonia/Binding/Data/hide-error-validation-before-first-input/">
       
       
-        <link rel="prev" href="../../Binding/Event/why-textbox-keydown-event-not-triggering/">
+        <link rel="prev" href="../../how-to-bind-datatable/">
       
       
-        <link rel="next" href="../../Style/-pointerover-setting-color-not-working/">
+        <link rel="next" href="../../Event/why-textbox-keydown-event-not-triggering/">
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
     
     
       
-        <title>为什么 Avalonia 程序在 Linux 环境下无法双击打开 - Avalonia 故障排除指南</title>
+        <title>在首次输入前隐藏数据验证错误 - Avalonia 故障排除指南</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.7e37652d.min.css">
       
       
 
@@ -45,17 +45,17 @@
       
     
     
-      <link rel="stylesheet" href="../../../css/timeago.css">
+      <link rel="stylesheet" href="../../../../css/timeago.css">
     
-      <link rel="stylesheet" href="../../../css/timeago.css">
+      <link rel="stylesheet" href="../../../../css/timeago.css">
     
-      <link rel="stylesheet" href="../../../css/timeago.css">
+      <link rel="stylesheet" href="../../../../css/timeago.css">
     
-      <link rel="stylesheet" href="../../../assets/extra.css">
+      <link rel="stylesheet" href="../../../../assets/extra.css">
     
-      <link rel="stylesheet" href="../../../assets/tags.css">
+      <link rel="stylesheet" href="../../../../assets/tags.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#avalonia-linux" class="md-skip">
+        <a href="#_1" class="md-skip">
           跳转至
         </a>
       
@@ -88,7 +88,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="../../.." title="Avalonia 故障排除指南" class="md-header__button md-logo" aria-label="Avalonia 故障排除指南" data-md-component="logo">
+    <a href="../../../.." title="Avalonia 故障排除指南" class="md-header__button md-logo" aria-label="Avalonia 故障排除指南" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -108,7 +108,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              为什么 Avalonia 程序在 Linux 环境下无法双击打开
+              在首次输入前隐藏数据验证错误
             
           </span>
         </div>
@@ -129,7 +129,7 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../en/Avalonia/Multi%20OS/avalonia-app-linux-double-click-not-open/" hreflang="en" class="md-select__link">
+            <a href="../../../../en/Avalonia/Binding/Data/hide-error-validation-before-first-input/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -221,7 +221,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../.." class="md-tabs__link">
+      <a href="../../../.." class="md-tabs__link">
         
   
   
@@ -244,7 +244,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../can-avalonia-embed-html/" class="md-tabs__link">
+        <a href="../../../can-avalonia-embed-html/" class="md-tabs__link">
           
   
   
@@ -280,7 +280,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Avalonia 故障排除指南" class="md-nav__button md-logo" aria-label="Avalonia 故障排除指南" data-md-component="logo">
+    <a href="../../../.." title="Avalonia 故障排除指南" class="md-nav__button md-logo" aria-label="Avalonia 故障排除指南" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -310,7 +310,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../../../.." class="md-nav__link">
         
   
   
@@ -388,7 +388,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../can-avalonia-embed-html/" class="md-nav__link">
+      <a href="../../../can-avalonia-embed-html/" class="md-nav__link">
         
   
   
@@ -408,8 +408,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -426,13 +428,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -448,7 +448,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             绑定
@@ -462,7 +462,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Binding/how-to-bind-datatable/" class="md-nav__link">
+      <a href="../../how-to-bind-datatable/" class="md-nav__link">
         
   
   
@@ -482,8 +482,10 @@
                 
   
   
+    
   
   
+  
     
     
       
@@ -496,13 +498,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2_2" id="__nav_2_2_2_label" tabindex="0">
@@ -518,7 +518,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2_2">
             <span class="md-nav__icon md-icon"></span>
             Data
@@ -529,10 +529,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../Binding/Data/hide-error-validation-before-first-input/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -543,6 +552,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -610,7 +620,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Binding/Event/why-textbox-keydown-event-not-triggering/" class="md-nav__link">
+      <a href="../../Event/why-textbox-keydown-event-not-triggering/" class="md-nav__link">
         
   
   
@@ -646,8 +656,6 @@
                 
   
   
-    
-  
   
   
     
@@ -662,11 +670,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
         
           
           <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
@@ -682,7 +692,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
             跨平台
@@ -693,19 +703,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../Multi%20OS/avalonia-app-linux-double-click-not-open/" class="md-nav__link">
         
   
   
@@ -716,7 +717,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -788,7 +788,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Style/-pointerover-setting-color-not-working/" class="md-nav__link">
+      <a href="../../../Style/-pointerover-setting-color-not-working/" class="md-nav__link">
         
   
   
@@ -811,7 +811,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Style/datagrid-not-displaying/" class="md-nav__link">
+      <a href="../../../Style/datagrid-not-displaying/" class="md-nav__link">
         
   
   
@@ -834,7 +834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Style/is-there-a-trigger-in-avalonia/" class="md-nav__link">
+      <a href="../../../Style/is-there-a-trigger-in-avalonia/" class="md-nav__link">
         
   
   
@@ -908,7 +908,19 @@
       
       
       
-        <span class="md-tag">Linux</span>
+        <span class="md-tag">Binding</span>
+      
+    
+      
+      
+      
+        <span class="md-tag">Data</span>
+      
+    
+      
+      
+      
+        <span class="md-tag">Data Validation</span>
       
     
   </nav>
@@ -918,11 +930,65 @@
   
 
 
-<h1 id="avalonia-linux">为什么 Avalonia 程序在 Linux 环境下无法双击打开<a class="headerlink" href="#avalonia-linux" title="Permanent link">#</a></h1>
-<p>因为 .desktop 被识别成后缀名了，删除就好</p>
-<p>💖 提供者 <a href="https://github.com/kongdetuo">kongdetuo</a></p>
-<p>🔗 原文档链接 <a href="https://kongdetuo.github.io/posts/avalonia-faq/">Avalonia 常见问题</a></p>
-<p>（已获得原作者许可,有改动）</p>
+<h1 id="_1">在首次输入前隐藏数据验证错误<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
+<p>可以给数据提供一个不可见字符作为初始值,在点击（或获得焦点）时删除这个字符。</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>其实大多数情况空格就足够了</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>记得在提交前对所有数据验证输入框再进行一次不可见字符删除</p>
+</div>
+<p>可用的不可见字符有：</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th style="text-align: center;">代码</th>
+<th style="text-align: center;">实体名</th>
+<th style="text-align: center;">符号</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>零宽度空格</td>
+<td style="text-align: center;">U+200B</td>
+<td style="text-align: center;"><code>&amp;ZeroWidthSpace;</code></td>
+<td style="text-align: center;"><code>​</code></td>
+<td>推荐使用</td>
+</tr>
+<tr>
+<td>零宽度非连接符</td>
+<td style="text-align: center;">U+200C</td>
+<td style="text-align: center;"><code>&amp;zwnj;</code></td>
+<td style="text-align: center;"><code>‌</code></td>
+<td>不推荐使用，会与上一个字符粘连</td>
+</tr>
+<tr>
+<td>零宽度连接符</td>
+<td style="text-align: center;">U+200D</td>
+<td style="text-align: center;"><code>&amp;zwj;</code></td>
+<td style="text-align: center;"><code>‍</code></td>
+<td>不建议用于可输入英文的输入框</td>
+</tr>
+<tr>
+<td>零宽度词连接符</td>
+<td style="text-align: center;">U+2060</td>
+<td style="text-align: center;"><code>&amp;NoBreak;</code></td>
+<td style="text-align: center;"><code>⁠</code></td>
+<td>不建议用于可输入英文的输入框</td>
+</tr>
+<tr>
+<td>零宽度不间断空格</td>
+<td style="text-align: center;">U+FEFF</td>
+<td style="text-align: center;">---</td>
+<td style="text-align: center;"><code>﻿</code></td>
+<td>不推荐用于不间断指示</td>
+</tr>
+</tbody>
+</table>
 
 
 
@@ -943,7 +1009,7 @@
     <span class="md-icon" title="最后更新">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025年8月29日 11:05:04 UTC"><span class="timeago" datetime="2025-08-29T11:05:04+00:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025年8月29日 11:05:04 UTC">2025-08-29</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago" title="2025年9月6日 02:33:53 UTC"><span class="timeago" datetime="2025-09-06T02:33:53+00:00" locale="zh"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="2025年9月6日 02:33:53 UTC">2025-09-06</span>
   </span>
 
     
@@ -1000,24 +1066,24 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate", "content.code.copy", "content.tabs.link", "navigation.indexes", "navigation.expand", "navigation.tracking", "footer.social", "footer.icons", "palette.toggle", "palette.icon", "announcement.bar"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.top", "search.suggest", "search.highlight", "content.code.annotate", "content.code.copy", "content.tabs.link", "navigation.indexes", "navigation.expand", "navigation.tracking", "footer.social", "footer.icons", "palette.toggle", "palette.icon", "announcement.bar"], "search": "../../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.92b07e13.min.js"></script>
       
-        <script src="../../../js/timeago.min.js"></script>
+        <script src="../../../../js/timeago.min.js"></script>
       
-        <script src="../../../js/timeago_mkdocs_material.js"></script>
+        <script src="../../../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../../../js/timeago.min.js"></script>
+        <script src="../../../../js/timeago.min.js"></script>
       
-        <script src="../../../js/timeago_mkdocs_material.js"></script>
+        <script src="../../../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../../../js/timeago.min.js"></script>
+        <script src="../../../../js/timeago.min.js"></script>
       
-        <script src="../../../js/timeago_mkdocs_material.js"></script>
+        <script src="../../../../js/timeago_mkdocs_material.js"></script>
       
-        <script src="../../../assets/tags.js"></script>
+        <script src="../../../../assets/tags.js"></script>
       
     
   </body>
