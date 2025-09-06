@@ -7,12 +7,18 @@ docs_dir: docs/
 markdown_extensions:
   - admonition
   - pymdownx.highlight:
-      anchor_linenums: true
+      linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: '#'
+      toc_depth: 3
 
 extra_javascript:
   - assets/tags.js
@@ -24,6 +30,7 @@ extra_css:
 theme:
   name: material
   features:
+    - navigation.tracking
     - navigation.tabs
     - navigation.top
     - search.suggest
@@ -31,7 +38,6 @@ theme:
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
-    - header.autohide
     - navigation.indexes
     - navigation.expand
     - navigation.tracking
@@ -52,6 +58,8 @@ plugins:
         - Binding
         - Code Behind
         - ViewModel
+        - Data
+        - Data Validation
         # Multi-OS
         - Windows
         - Linux
